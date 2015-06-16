@@ -1,6 +1,9 @@
 # JxbPlayerControl
 A Mp3 Player Control. Support ServerUrl & LocolFile
 
+#Support CocoaPods
+Pod 'JxbPlayerControl'
+
 #Code
 ``` object-c
 JxbPlayer* jxb = [[JxbPlayer alloc] initWithMainColor:[UIColor redColor] frame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 100)];
